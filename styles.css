@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+    width: 1100px;
+    margin: auto;
+    height: 100vh;
+    
+    padding: 20px;
+}
+.container .top{
+    width: 25%;;
+}
+.top{
+    margin-top: 50px;
+}
+.top h1{
+    font-size: 3rem;
+    line-height: 1;
+    width: 120%;
+    margin-bottom: 30px;
+    color: #411530;
+}
+.top p{
+    width: 140%;
+    color: #7F5283;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.aside{
+    margin-right: 100px;
+    margin-top: 100px;
+    position: relative;
+}
+.aside p{
+    padding: 10px 20px;
+    background-color: rgb(242, 240, 240);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #411530;
+}
+.aside #p-1{
+    position: relative;
+    right: 50px;
+}
+.aside #p-3{
+    position: relative;
+    left: 50px;
+}
+.aside i{
+    color: orange;
+    margin-left: 5px;
+}
+.aside span{
+    margin-right: 20px;
+}
+section .container{
+    height: 50vh;
+}
+.reviews{
+    display: flex;
+    color: white;
+    margin-top: 60px;
+}
+.colton{
+    padding: 20px;
+    margin-right: 30px;
+    border-radius: 10px;
+    background-color: #411530;
+    position: relative;
+    height: 30vh;
+}
+.colton .comment{
+    position: relative;
+    bottom: 25px;
+}
+.verified{
+    color: #bc9aaf;
+}
+.reviews .profile-p{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.reviews img{
+    border-radius: 50%;
+    width: 80%;
+}
+.name{
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+    
+}
+.anne{
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #411530;
+    position: relative;
+    margin-top: 40px;
+    height: 30vh;
+}
+.anne .comment{
+    position: relative;
+    bottom: 25px;
+}
+.irene{
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #411530;
+    position: relative;
+    margin-top: 20px;
+    height: 30vh;
+}
+.irene .comment{
+    position: relative;
+    bottom: 25px;
+}
